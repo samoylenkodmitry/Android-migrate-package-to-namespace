@@ -29,3 +29,11 @@ This Python script helps you migrate the package name specified in `AndroidManif
 
 ```sh
 python migrate_package_name.py
+```
+
+## Note
+This script assumes that you have a standard Android project structure with `build.gradle` and `AndroidManifest.xml` files in their usual locations. If your project structure is different, you might need to modify the script to accommodate those differences.
+
+## License
+
+MIT License. See [LICENSE](LICENSE) for more information.
